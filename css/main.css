@@ -1,44 +1,53 @@
+*{
+    color:lightslategrey;
+}
+
 body {
-    margin: 60px auto;
-    width: 70%;
+  background-color: ghostwhite;
+  margin: 0;
+  padding: 0;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+
+.header{
+text-align: center;
+  height: 100px;
+  
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+#header-text{
+  font-family: 'Montserrat',sans-serif;
+  text-transform: uppercase;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 40px;;
+  width: 60%;
 }
-a {
+
+.main{
+    
+    font-family: 'Montserrat,sans-serif';
+    text-align: center;
+    height: 100px;
+    
+}
+
+.links{
+    
+   text-align: center;
+    text-decoration: ;
+   height: 50px;
+    font-size: 12px;
+    
+}
+div a{
+    display: inline-block;
     text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    padding-right: 40px;
+    background: ;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+.copyright{
+    text-align: center;
+    font-size: 10px;
 }
-
-ul.posts li {
-    list-style: none;
-}
-
