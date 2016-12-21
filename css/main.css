@@ -16,7 +16,7 @@ text-align: center;
 
 #header-text{
   font-family: 'Montserrat',sans-serif;
-    font-size: 120%;
+    font-size: 110%;
   text-transform: uppercase;
   margin: 0 auto;
   position: relative;
@@ -32,6 +32,7 @@ text-align: center;
     text-align: center;
     height: 100%;
     
+    
 }
 
 .links{
@@ -40,6 +41,7 @@ text-align: center;
     text-decoration: ;
    height: 50%;
     font-size: 80%;
+    padding-left: 5%;
     
 }
 div a{
