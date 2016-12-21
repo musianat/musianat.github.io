@@ -10,25 +10,27 @@ body {
 
 .header{
 text-align: center;
-  height: 100px;
+  height: 100%;
   
 }
 
 #header-text{
   font-family: 'Montserrat',sans-serif;
+    font-size: 130%;
   text-transform: uppercase;
   margin: 0 auto;
   position: relative;
   text-align: center;
-  top: 40px;;
-  width: 60%;
+  top: 40%;
+  width: 80%;
 }
 
 .main{
     
     font-family: 'Montserrat,sans-serif';
+    font-size: 150%;
     text-align: center;
-    height: 100px;
+    height: 100%;
     
 }
 
@@ -36,18 +38,18 @@ text-align: center;
     
    text-align: center;
     text-decoration: ;
-   height: 50px;
-    font-size: 12px;
+   height: 50%;
+    font-size: 80%;
     
 }
 div a{
     display: inline-block;
     text-decoration: none;
-    padding-right: 40px;
-    background: ;
+    padding-right: 5%;
+ 
 }
 
 .copyright{
     text-align: center;
-    font-size: 10px;
+    font-size: 50%;
 }
